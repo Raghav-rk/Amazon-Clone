@@ -1,0 +1,754 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #131921;
+    color: white;
+    height: 70px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+header .logo {
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 40px;
+    width: 110px;
+}
+
+header .logo:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+header p {
+    font-size: 13px;
+}
+
+header b {
+    font-size: 14px
+}
+
+.select {
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn {
+    height: 40px;
+    width: 40px;
+}
+
+.search {
+    padding: 0px 20px;
+    display: flex;
+    border-radius: 4px;
+
+}
+
+.search button {
+    border: none;
+    background-color: rgb(237, 166, 34);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+.search .select {
+    border: none;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: rgb(218 214 214);
+    font-weight: 400;
+
+
+}
+
+
+header img {
+    height: 40px;
+    width: 90px;
+}
+
+.total {
+    display: flex;
+}
+
+.three {
+    display: flex;
+}
+
+.last {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    gap: 20px;
+}
+
+.last .ind {
+    height: 40px;
+    width: 60px;
+    border: none;
+    color: white;
+    background-color: #131921;
+    cursor: pointer;
+}
+
+.en:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.sing-in:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.order:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.cart:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+.last .cart {
+    height: 40px;
+    width: 40px;
+}
+
+.location {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.location:hover {
+    border: 1px solid white;
+}
+
+
+
+.search .input {
+    border: none;
+    width: 500px;
+    height: 40px;
+    font-weight: 600;
+    outline: none;
+
+}
+
+#icon {
+    background: orange;
+    height: 40px;
+    width: 50px;
+}
+
+#nav .total {
+    gap: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: #122033;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: white
+}
+
+#nav .all {
+    height: 38px;
+    width: 60px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+
+}
+
+#nav .all:hover {
+    border: 1px solid white;
+}
+
+#nav .fresh {
+    height: 38px;
+    width: 55px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#nav .fresh:hover {
+    border: 1px solid white;
+}
+
+#nav .amazon {
+    height: 38px;
+    width: 125px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#nav .amazon:hover {
+    border: 1px solid white;
+}
+
+#nav .sell {
+    height: 38px;
+    width: 40px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#nav .sell:hover {
+    border: 1px solid white;
+}
+
+#nav .best {
+    height: 38px;
+    width: 93px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#nav .best:hover {
+    border: 1px solid white;
+}
+
+#nav .today {
+    height: 38px;
+    width: 108px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#nav .today:hover {
+    border: 1px solid white;
+}
+
+#nav .Mobiles {
+    height: 38px;
+    width: 67px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#nav .Mobiles:hover {
+    border: 1px solid white;
+}
+
+#nav .Prime {
+    height: 38px;
+    width: 54px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#nav .Prime:hover {
+    border: 1px solid white;
+}
+
+#nav .Custumer {
+    height: 38px;
+    width: 145px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#nav .Custumer:hover {
+    border: 1px solid white;
+}
+
+#nav .Electronics {
+    height: 38px;
+    width: 92px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#nav .Electronics:hover {
+    border: 1px solid white;
+}
+
+#nav .Fashion {
+    height: 38px;
+    width: 70px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#nav .Fashion:hover {
+    border: 1px solid white;
+}
+
+#nav .New {
+    height: 38px;
+    width: 121px;
+
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#nav .New:hover {
+    border: 1px solid white;
+}
+
+#nav.total p {
+    font-weight: 10;
+}
+
+.wrapper {
+    position: relative;
+    height: 810px;
+    background-size: cover;
+}
+
+.wrapper .img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+
+
+.wrapper .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s ease;
+}
+
+#one:checked~.img-1 img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#two:checked~.img-2 img,
+#two:checked~.img-2 img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#three:checked~.img-3 img,
+#three:checked~.img-3 img,
+#three:checked~.img-3 img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#four:checked~.img-4 img,
+#four:checked~.img-4 img,
+#four:checked~.img-4 img,
+#four:checked~.img-4 img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#five:checked~.img-5 img,
+#five:checked~.img-5 img,
+#five:checked~.img-5 img,
+#five:checked~.img-5 img,
+#five:checked~.img-5 img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+.wrapper .slider {
+    position: absolute;
+    bottom: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    display: flex;
+
+}
+
+.wrapper .slider label {
+    height: 13px;
+    width: 13px;
+    border-radius: 10px;
+    border: 2px solid rgba(228, 203, 15, 0.869);
+    margin: 0 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#one:checked~.slider label.one,
+#two:checked~.slider label.two,
+#three:checked~.slider label.three,
+#four:checked~.slider label.four,
+#five:checked~.slider label.five {
+    width: 25px;
+    background-color: rgba(228, 203, 15, 0.869);
+
+
+}
+
+.wrapper .slider label:hover {
+    background-color: rgba(228, 203, 15, 0.869);
+}
+
+.wrapper input[type="radio"] {
+    display: none;
+}
+
+.boss {
+    margin-left: 30px;
+    background-color: gray;
+
+}
+
+.all-item {
+    display: flex;
+    position: absolute;
+    top: 550px;
+    gap: 20px;
+    padding-left: 50px;
+
+
+}
+
+
+.all-item .box-1 {
+    height: 365px;
+    width: 280px;
+    background-color: white;
+    padding: 5px 16px;
+}
+
+.all-item .A {
+    height: 300px;
+    width: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.all-item .A .a {
+    height: 110px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.all-item .A .a img {
+    height: 90px;
+    width: 90px;
+}
+
+
+.all-item .A .b {
+    height: 110px;
+    width: 90px;
+    margin-right: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.all-item .A .b img {
+    height: 90px;
+    width: 90px;
+}
+
+.all-item .A .c {
+    height: 110px;
+    width: 90px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.all-item .A .c img {
+    height: 90px;
+    width: 90px;
+}
+
+.all-item .A .d {
+    height: 110px;
+    width: 90px;
+    margin-top: 1px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.all-item .A .d img {
+    height: 90px;
+    width: 90px;
+}
+
+.box-1 .A p {
+    font-size: 11px;
+    font-weight: 540;
+
+}
+
+.box-1 .p {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.all-item .box-2 {
+    height: 150px;
+    width: 280px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.all-item .box-2 button {
+    padding: 8px 70px;
+    margin-top: 20px;
+    background-color: rgb(224, 224, 21);
+    border: none;
+    border-radius: 8px;
+    font-weight: 540;
+    cursor: pointer;
+
+}
+
+.banner {
+    background-color: whitesmoke;
+    height: 260px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.banner .header {
+    padding: 10px 20px;
+    display: flex;
+}
+
+.banner .header a {
+    margin-left: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px
+}
+
+.banner .img {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.banner .rk {
+    gap: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#boss-1 {
+    background-color: rgb(222 233 237);
+
+}
+
+
+.all {
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-size: cover;
+
+}
+
+.all .box-1 {
+    height: 365px;
+    width: 280px;
+    background-color: white;
+    padding: 5px 16px;
+}
+
+.all .A {
+    height: 300px;
+    width: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.all .A .a {
+    height: 110px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.all .A .a img {
+    height: 90px;
+    width: 90px;
+}
+
+
+.all .A .b {
+    height: 110px;
+    width: 90px;
+    margin-right: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.all .A .b img {
+    height: 90px;
+    width: 90px;
+}
+
+.all .A .c {
+    height: 110px;
+    width: 90px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.all .A .c img {
+    height: 90px;
+    width: 90px;
+}
+
+.all .A .d {
+    height: 110px;
+    width: 90px;
+    margin-top: 1px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.all .A .d img {
+    height: 90px;
+    width: 90px;
+}
+
+.box-1 .A p {
+    font-size: 11px;
+    font-weight: 540;
+
+}
+
+.box-1 .p {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#banner .img {
+    cursor: pointer;
+}
+
+#sign {
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    background-color: whitesmoke;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#sign .new {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#sign button {
+    padding: 8px 70px;
+    margin-top: 5px;
+    background-color: rgb(224, 224, 21);
+    border: none;
+    border-radius: 8px;
+    font-weight: 540;
+    cursor: pointer;
+}
+
+#sign a {
+    text-decoration: none;
+}
+
+#footer {
+    margin-top: 10px;
+}
+
+#footer .bnr {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #122033;
+    color: white;
+    cursor: pointer;
+}
+
+#footer .all-in-one {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background-color: #131921;
+    color: white;
+    padding: 50px;
+}
+
+#footer .all-in-one a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer .all-in-one .one {
+    height: 200px;
+    width: 100px;
+}
+
+#footer .all-in-one .two {
+    height: 200px;
+    width: 100px;
+}
+
+#footer .all-in-one .the {
+    height: 200px;
+    width: 150px;
+}
+
+#footer .all-in-one .four {
+    height: 200px;
+    width: 100px;
+
+}
